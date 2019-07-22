@@ -5,6 +5,17 @@ Area a;
 MoveBall b;
 Device d;
 
+
+class MoveBall {  
+  int x = 1100, y = 500;
+  int size = 50;
+  void display() {
+    ellipse(mouseX, y, size, size);
+  }
+  void move() {
+  }
+}
+
 void setup(){
   size(2000,1600);
 
