@@ -1,3 +1,18 @@
+class Device {
+  int ob_x;
+  int ob_y;
+  int wp_x;
+  int wp_y;
+  void obstacle(){
+   ellipse(ob_x, ob_y, 120, 120);
+  }
+  void ob_move(){
+    ob_y = ob_y - 15;
+    wp_y = wp_y - 5;
+    
+  }
+}
+
 int y=0;
 int flag=0;
 
