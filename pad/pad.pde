@@ -1,3 +1,9 @@
+class Area {
+  void display(int x,int y,int r,int d) {
+    rect(x,y,r,d);
+  }
+}
+
 int y=0;
 int flag=0;
 
